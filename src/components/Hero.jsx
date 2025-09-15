@@ -1,12 +1,10 @@
 // src/components/Hero.jsx
 import React from "react";
-import profilePic from "../assets/profile.jpg"; 
-import computerBg from "../assets/computer-bg.jpg"; 
+import computerBg from "../assets/computer-bg.jpg"; // keep this if still in src/assets
 
 const Hero = () => {
   return (
     <section className="relative w-full h-screen bg-gray-900 flex flex-col items-center justify-center overflow-hidden">
-      
       {/* Background Image with fade-in animation */}
       <img
         src={computerBg}
@@ -16,10 +14,9 @@ const Hero = () => {
 
       {/* Content */}
       <div className="relative z-10 flex flex-col items-center text-center space-y-4">
-        
-        {/* Profile Photo with floating animation */}
+        {/* Profile Photo from public folder */}
         <img
-          src={profilePic}
+          src="/Profile.jpg"
           alt="Profile"
           className="w-48 h-48 md:w-64 md:h-64 rounded-full object-cover animate-float"
         />
@@ -37,6 +34,7 @@ const Hero = () => {
 };
 
 export default Hero;
+
 
 
 
