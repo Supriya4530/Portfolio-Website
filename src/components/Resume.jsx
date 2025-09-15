@@ -37,11 +37,12 @@ const Resume = () => {
         </a>
 
         <a
-          href="https://www.youtube.com/@supriyasukale1413" // replace with your YouTube
+          href="https://www.youtube.com/channel/your-youtube" // replace with your YouTube
           target="_blank"
           rel="noopener noreferrer"
           className="hover:text-red-600 transition duration-300"
         >
+            
           <FaYoutube />
         </a>
       </div>
